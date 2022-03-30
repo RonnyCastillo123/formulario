@@ -1,0 +1,89 @@
+:root{
+--azul:#1A5276;
+--amarillo:#FFC300;
+--blanco:#FFF;
+
+
+};
+
+/*	ETIQUETAS*/
+html{
+	box-sizing:	border-box;
+/*dar formato al sitio web*/
+}
+*,*:before , *:after{
+	box-sizing: inherit;
+}
+
+
+/* clases*/
+.formulario{
+
+background-color: var(--azul);
+width: min(40rem,100%);/* para el fondo azul del formulario*/
+/*margin: 20px 20px 20px 20px;*/
+margin: auto;/* ajustar auomaticamente al centro */
+padding: 1rem;  /*para los margenes o distancia del objeto anterior para centar o ubicar  */
+border-radius: 1rem;/*border redondos */
+
+
+
+}
+
+.formulario fieldset{
+	border: none;/*eliminar marco*/
+	/** fieldset es una eytiqueta que esta en la calse formulario*/
+
+
+}
+.formulario legend {
+
+color: var(--amarillo);
+text-align: center;
+font-size: 1.5rem;
+text-transform: uppercase;
+
+
+}
+
+.campo label{
+
+	display: block;/* para salto de linea de las etiquetas se presenta en bloque  */
+margin-bottom: 0.5rem;/* margen de abajo*/
+margin-top: : 0.5rem;/* margen de arriba*/
+color: var(--blanco); 
+margin-top: 0.5rem;
+}
+
+.campo input{
+
+width: 90%;
+border:none;
+padding: 1.5rem;
+border-radius: 0.5rem;
+
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {
+    justify-content: flex-start;
+	margin-top: 2rem;
+	background-color: #008CBA;
+	width: 87%;
+	border-radius: 0.5rem;
+    
+} /* Blue */
+
+
+
+
